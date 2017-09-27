@@ -79,5 +79,5 @@ func main() {
 
 	pi := 4 * float64(hits) / float64(*nThrow)
 	fmt.Printf("\rPI = %f\n", pi)
-	fmt.Printf("time cost: %f s\n", time.Since(start).Seconds())
+	fmt.Printf("time cost: %.2f s\n", time.Since(start).Seconds())
 }
